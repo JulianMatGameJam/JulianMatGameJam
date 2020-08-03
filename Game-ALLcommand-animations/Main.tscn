@@ -1,0 +1,78 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Ground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Back Ground.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Box.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Signal.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Spider.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Checkpoint.tscn" type="PackedScene" id=7]
+[ext_resource path="res://PickableObject.tscn" type="PackedScene" id=8]
+
+[node name="Main" type="Node"]
+
+[node name="Back Ground" parent="." instance=ExtResource( 3 )]
+
+[node name="Box" parent="." groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 772.107, 495.6 )
+
+[node name="Box2" parent="." groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 460.738, 435.458 )
+mode = 1
+
+[node name="Box3" parent="." groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 459.003, 504.998 )
+mode = 1
+
+[node name="Box4" parent="." groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 2885.28, 501.508 )
+
+[node name="Player" parent="." groups=[
+"Player",
+] instance=ExtResource( 1 )]
+position = Vector2( 534.188, 505.377 )
+
+[node name="Spider" parent="." instance=ExtResource( 6 )]
+position = Vector2( 753.119, 239.954 )
+
+[node name="Ground" parent="." instance=ExtResource( 2 )]
+
+[node name="Signal1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1243, 591.25 )
+rotation = 1.5708
+
+[node name="Signal2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1442.26, 590.467 )
+rotation = 1.5708
+
+[node name="Signal3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1624.49, 592.586 )
+rotation = 1.5708
+
+[node name="Checkpoint" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1813.65, 417.401 )
+
+[node name="Checkpoint2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 527.653, 413.401 )
+
+[node name="Checkpoint3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2760.25, 413.401 )
+
+[node name="PickableObject" parent="." instance=ExtResource( 8 )]
+position = Vector2( 625.833, 518.683 )
+[connection signal="WichWay" from="Player" to="PickableObject" method="_on_Player_WichWay"]
+[connection signal="body_entered" from="Signal1" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signal2" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signal3" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Checkpoint" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="body_entered" from="Checkpoint2" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="body_entered" from="Checkpoint3" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="IsGrapping" from="PickableObject" to="Player" method="_on_PickableObject_IsGrapping"]
