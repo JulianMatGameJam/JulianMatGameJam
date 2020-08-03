@@ -29,10 +29,16 @@ scale = Vector2( 1.02707, 1.40737 )
 texture = ExtResource( 3 )
 
 [node name="Timer" type="Timer" parent="."]
+pause_mode = 2
+process_mode = 0
+one_shot = true
+autostart = true
 
 [node name="Screamer" type="Node2D" parent="."]
+visible = false
 
 [node name="Sprite" type="Sprite" parent="Screamer"]
+modulate = Color( 1, 1, 1, 0.196078 )
 position = Vector2( 0, -95.3883 )
 scale = Vector2( 2.23056, 2.60922 )
 texture = ExtResource( 4 )
