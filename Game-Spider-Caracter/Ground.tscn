@@ -1,0 +1,85 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Asset/Layer_0001_8.png" type="Texture" id=1]
+[ext_resource path="res://Asset/Layer_0001_83.png" type="Texture" id=2]
+[ext_resource path="res://Asset/Layer_0002_7.png" type="Texture" id=3]
+[ext_resource path="res://Asset/Layer_0001_84.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 464.357, 87.7557 )
+
+[node name="Ground" type="Node2D"]
+
+[node name="Ground skin" type="Node2D" parent="."]
+
+[node name="Ground1" type="StaticBody2D" parent="Ground skin"]
+position = Vector2( 464, 204 )
+
+[node name="Layer_0002_7" type="Sprite" parent="Ground skin/Ground1"]
+position = Vector2( 0, 581 )
+texture = ExtResource( 3 )
+
+[node name="Ground" type="Sprite" parent="Ground skin/Ground1"]
+texture = ExtResource( 1 )
+
+[node name="Shape" type="CollisionShape2D" parent="Ground skin/Ground1"]
+position = Vector2( 0, 425 )
+shape = SubResource( 1 )
+
+[node name="Ground2" type="StaticBody2D" parent="Ground skin"]
+position = Vector2( 1387, 204 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Ground skin/Ground2"]
+position = Vector2( 0, 581 )
+texture = ExtResource( 3 )
+
+[node name="Ground" type="Sprite" parent="Ground skin/Ground2"]
+texture = ExtResource( 2 )
+
+[node name="Shape" type="CollisionPolygon2D" parent="Ground skin/Ground2"]
+position = Vector2( 0, 425 )
+polygon = PoolVector2Array( -464.035, -87.6616, -216.986, -87.2395, -213.018, -80.8899, -235.413, -39.2219, 269.163, -39.3331, 271.244, -45.5765, 275.406, -64.0092, 276.001, -79.1716, 281.055, -86.3068, 458.634, -87.7365, 458.453, -28.5057, -463.827, -28.9025 )
+
+[node name="Shape2" type="CollisionShape2D" parent="Ground skin/Ground2"]
+position = Vector2( 0, 474 )
+shape = SubResource( 1 )
+
+[node name="Ground3" type="StaticBody2D" parent="Ground skin"]
+position = Vector2( 2310, 204 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Ground skin/Ground3"]
+position = Vector2( 0, 581 )
+texture = ExtResource( 3 )
+
+[node name="Ground" type="Sprite" parent="Ground skin/Ground3"]
+texture = ExtResource( 4 )
+
+[node name="Shape" type="CollisionShape2D" parent="Ground skin/Ground3"]
+position = Vector2( 0, 474 )
+shape = SubResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Ground skin/Ground3"]
+polygon = PoolVector2Array( -465.229, 337.258, -288.539, 335.954, -263.732, 324.182, -148.95, 248.081, 17.1272, 248.921, 123.501, 331.329, 136.114, 336.375, 463.983, 337.355, 463.947, 386.279, -463.865, 385.988 )
+
+[node name="Ground4" type="StaticBody2D" parent="Ground skin"]
+position = Vector2( 3238, 204 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Ground skin/Ground4"]
+position = Vector2( 0, 581 )
+texture = ExtResource( 3 )
+
+[node name="Ground" type="Sprite" parent="Ground skin/Ground4"]
+texture = ExtResource( 1 )
+
+[node name="Shape" type="CollisionShape2D" parent="Ground skin/Ground4"]
+position = Vector2( 0, 425 )
+shape = SubResource( 1 )
