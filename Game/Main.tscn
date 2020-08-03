@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Ground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Back Ground.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Box.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Signal.tscn" type="PackedScene" id=5]
+
+[node name="Main" type="Node"]
+
+[node name="Back Ground" parent="." instance=ExtResource( 3 )]
+
+[node name="Box" parent="." instance=ExtResource( 4 )]
+position = Vector2( 772.107, 495.6 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 512.576, 459.35 )
+
+[node name="Ground" parent="." instance=ExtResource( 2 )]
+
+[node name="Signal" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2014.33, 338.231 )
+[connection signal="body_entered" from="Signal" to="Player" method="_on_Signal_body_entered"]
