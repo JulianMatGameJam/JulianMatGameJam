@@ -1,5 +1,5 @@
 Projet :
 
-J-1 : Ajout de la spider et des sprites du joueur
-J-2 : Toute les interactions au points
-J-3 : Ajout sous-sol / intro / Menu
+J-1 : Ajout de la spider (J) et des sprites du joueur (J), création de la carte (M) et des mouvements du personnage (M) ajout des 1er éléments de décors (M)
+J-2 : Toute les interactions au points (J) création des checkpoints (M) et de quelques nouveaux élément dans la carte (M) bug des boites fix (M)
+J-3 : Ajout sous-sol (M) / intro (J) / Menu (J) ajout des wagons (M)
