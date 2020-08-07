@@ -1,0 +1,289 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Ground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Back Ground.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Box.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Signal.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Spider.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Checkpoint.tscn" type="PackedScene" id=7]
+[ext_resource path="res://PickableObject.tscn" type="PackedScene" id=8]
+[ext_resource path="res://BoxSignal.tscn" type="PackedScene" id=9]
+[ext_resource path="res://SpiderSignal.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Wagon.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Wagonquibougepas.tscn" type="PackedScene" id=12]
+[ext_resource path="res://DialogBox.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Main.cs" type="Script" id=14]
+[ext_resource path="res://Friend.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Decor.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Decor2.tscn" type="PackedScene" id=17]
+[ext_resource path="res://ActivableTrap.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Elevator.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Asset/158317-full.png" type="Texture" id=20]
+[ext_resource path="res://Rocher.tscn" type="PackedScene" id=21]
+[ext_resource path="res://Platform.tscn" type="PackedScene" id=22]
+[ext_resource path="res://Planche.tscn" type="PackedScene" id=23]
+[ext_resource path="res://Sound/mud02.ogg" type="AudioStream" id=24]
+[ext_resource path="res://Sound/wind1.wav" type="AudioStream" id=25]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 202.75
+
+[node name="Main" type="Node"]
+script = ExtResource( 14 )
+
+[node name="Back Ground" parent="." instance=ExtResource( 3 )]
+
+[node name="Ground" parent="." instance=ExtResource( 2 )]
+position = Vector2( -3.33984, 2.66968 )
+
+[node name="Decor" parent="." instance=ExtResource( 16 )]
+cell_size = Vector2( 16, 16 )
+cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
+tile_data = PoolIntArray( 1900884, 11, 0, 3473849, 3, 0, 3473884, 3, 0, 3473910, 3, 0, 3473937, 3, 0, 3473973, 3, 0, 3474044, 3, 0, 3539548, 3, 0, 3539607, 3, 0, 3539664, 3, 0, 4129217, 1, 0, 4129219, 1, 0, 4129220, 1, 0, 4129241, 1, 0, 4129511, 14, 0, 4260277, 10, 0, 4260335, 10, 0, 4260339, 10, 0, 4325789, 5, 0, 4325799, 5, 0 )
+
+[node name="Player" parent="." groups=[
+"Player",
+] instance=ExtResource( 1 )]
+position = Vector2( 13107.4, 513.42 )
+
+[node name="Screamer" type="Sprite" parent="Player"]
+visible = false
+modulate = Color( 1, 1, 1, 0.486275 )
+position = Vector2( 17.5452, -173.028 )
+scale = Vector2( 1.03286, 0.679577 )
+texture = ExtResource( 20 )
+
+[node name="Spider" parent="." groups=[
+"Spider",
+] instance=ExtResource( 6 )]
+position = Vector2( -16.4546, 369.934 )
+
+[node name="Area2D2" type="Area2D" parent="Spider"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Spider/Area2D2"]
+visible = false
+shape = SubResource( 1 )
+
+[node name="Signals" type="Node2D" parent="."]
+
+[node name="Signal1" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 1243, 591.25 )
+rotation = 1.5708
+
+[node name="Signal2" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 1442.26, 590.467 )
+rotation = 1.5708
+
+[node name="Signal6" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 3421.42, 594.926 )
+rotation = 1.5708
+
+[node name="Signal7" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 4091.5, 592.256 )
+rotation = 1.5708
+
+[node name="Signal8" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 4216.5, 592.256 )
+rotation = 1.5708
+
+[node name="Signal5" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 3198.64, 591.358 )
+rotation = 1.5708
+
+[node name="Signal4" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 2980.96, 591.358 )
+rotation = 1.5708
+
+[node name="Signal3" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 1639.49, 590.586 )
+rotation = 1.5708
+
+[node name="Checkpoints" type="Node2D" parent="."]
+
+[node name="Checkpoint2" parent="Checkpoints" instance=ExtResource( 7 )]
+position = Vector2( 683.115, 447.22 )
+
+[node name="Checkpoint3" parent="Checkpoints" instance=ExtResource( 7 )]
+position = Vector2( 3635.14, 431.381 )
+
+[node name="BoxSignals" type="Node2D" parent="."]
+
+[node name="BoxSignal" parent="BoxSignals" instance=ExtResource( 9 )]
+position = Vector2( 4262.8, 672.514 )
+
+[node name="BoxSignal2" parent="BoxSignals" instance=ExtResource( 9 )]
+position = Vector2( 4096.89, 671.175 )
+
+[node name="SpiderSignal" type="Node2D" parent="."]
+
+[node name="SpiderSignal" parent="SpiderSignal" instance=ExtResource( 10 )]
+position = Vector2( 5583.34, 472.073 )
+rotation = 1.5708
+
+[node name="DialogBox" parent="." instance=ExtResource( 13 )]
+position = Vector2( 426.014, 132.948 )
+
+[node name="Friend" parent="." instance=ExtResource( 15 )]
+position = Vector2( 807.004, 501.454 )
+
+[node name="Decor2" parent="." instance=ExtResource( 17 )]
+tile_data = PoolIntArray( 394064, 1, 0, 394069, 1, 0, 459604, 0, 0, 590679, 0, 0, 1246033, 2, 0, 3539403, 1, 0, 3539547, 1, 0, 3539642, 1, 0, 3604882, 2, 0, 3605027, 2, 0, 3605095, 2, 0, 3605149, 0, 0, 3605170, 0, 0, 3801467, 0, 0 )
+
+[node name="Traps" type="Node2D" parent="."]
+
+[node name="ActivableTrap" parent="Traps" instance=ExtResource( 18 )]
+position = Vector2( 6404.9, 1060.65 )
+
+[node name="ActivableTrap2" parent="Traps" instance=ExtResource( 18 )]
+position = Vector2( 7091.94, 1075.38 )
+
+[node name="ActivableTrap3" parent="Traps" instance=ExtResource( 18 )]
+position = Vector2( 7523.05, 1070.25 )
+
+[node name="Elevator" parent="Traps" instance=ExtResource( 19 )]
+position = Vector2( 7822.5, 981.434 )
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Rochers" type="Node2D" parent="."]
+
+[node name="Rocher" parent="Rochers" instance=ExtResource( 21 )]
+position = Vector2( 12159.4, 1111.57 )
+
+[node name="Rocher2" parent="Rochers" instance=ExtResource( 21 )]
+position = Vector2( 12363, 1033.79 )
+
+[node name="Wagonsquibougepas" type="Node2D" parent="."]
+
+[node name="Wagonquibougepas" parent="Wagonsquibougepas" instance=ExtResource( 12 )]
+position = Vector2( 6005.74, 476.635 )
+
+[node name="Wagonquibougepas2" parent="Wagonsquibougepas" instance=ExtResource( 12 )]
+position = Vector2( 12572.7, 1001.82 )
+
+[node name="Wagonquibougepas3" parent="Wagonsquibougepas" instance=ExtResource( 12 )]
+position = Vector2( 11959.8, 490.441 )
+
+[node name="Box" type="Node2D" parent="."]
+
+[node name="Box3" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 519.003, 504.998 )
+mode = 1
+
+[node name="Box4" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 15273.8, 502.427 )
+mode = 1
+
+[node name="Box8" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 15274.5, 433.94 )
+mode = 1
+
+[node name="Box2" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 519.174, 436.458 )
+mode = 1
+
+[node name="Box" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 1027.4, 503.273 )
+scale = Vector2( 1.0022, 1 )
+
+[node name="Box5" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 3807.65, 363.529 )
+
+[node name="Box6" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 3807.39, 435.152 )
+
+[node name="Box7" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 3806.66, 505.141 )
+
+[node name="Wagon" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 5342.83, 512.498 )
+
+[node name="Wagon3" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 7680.54, 1035.13 )
+
+[node name="Wagon6" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 6666.63, 1031.13 )
+
+[node name="Wagon7" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 12490.8, 942.233 )
+rotation = -0.495017
+mode = 1
+
+[node name="Wagon8" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 12549.5, 915.442 )
+rotation = 0.527722
+mode = 1
+
+[node name="Wagon4" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 5626.26, 510.403 )
+
+[node name="Platform" parent="." instance=ExtResource( 22 )]
+position = Vector2( 13548, 326.331 )
+
+[node name="Planche" parent="." instance=ExtResource( 23 )]
+position = Vector2( 13489.6, 98.61 )
+
+[node name="PickableObject" parent="." instance=ExtResource( 8 )]
+position = Vector2( 12910, 500.85 )
+
+[node name="Music" type="Node2D" parent="."]
+
+[node name="WindSound" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource( 25 )
+volume_db = -35.0
+
+[node name="StepSound" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource( 24 )
+volume_db = -25.0
+[connection signal="WichWay" from="Player" to="PickableObject" method="_on_Player_WichWay"]
+[connection signal="body_entered" from="Spider/Area2D2" to="Player" method="_on_Area2D2_body_entered"]
+[connection signal="body_entered" from="Signals/Signal1" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal2" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal6" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal7" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal8" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal5" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal4" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal3" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Checkpoints/Checkpoint2" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="body_entered" from="Checkpoints/Checkpoint3" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="body_entered" from="BoxSignals/BoxSignal" to="Player" method="_on_BoxSignal_body_entered"]
+[connection signal="body_entered" from="BoxSignals/BoxSignal2" to="Player" method="_on_BoxSignal_body_entered"]
+[connection signal="body_entered" from="SpiderSignal/SpiderSignal" to="Player" method="_on_SpiderSignal_body_entered"]
+[connection signal="GameStart" from="DialogBox" to="Player" method="_on_DialogBox_GameStart"]
+[connection signal="GameStart" from="DialogBox" to="Friend" method="_on_DialogBox_GameStart"]
+[connection signal="ButtonUp" from="Traps/ActivableTrap" to="Traps/Elevator" method="_on_ActivableTrap_ButtonUp"]
+[connection signal="ButtonUp" from="Traps/ActivableTrap2" to="Traps/Elevator" method="_on_ActivableTrap2_ButtonUp"]
+[connection signal="ButtonUp" from="Traps/ActivableTrap3" to="Traps/Elevator" method="_on_ActivableTrap3_ButtonUp"]
+[connection signal="timeout" from="Timer" to="Player" method="_on_Timer_timeout"]
+[connection signal="HasTouch" from="Platform" to="Planche" method="_on_Platform_HasTouch"]
+[connection signal="IsGrapping" from="PickableObject" to="Player" method="_on_PickableObject_IsGrapping"]
