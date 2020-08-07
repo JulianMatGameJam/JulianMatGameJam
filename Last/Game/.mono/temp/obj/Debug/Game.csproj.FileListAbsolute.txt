@@ -1,0 +1,6 @@
+d:\Documents\Godot\Game\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.pdb

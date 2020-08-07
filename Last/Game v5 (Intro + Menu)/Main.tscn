@@ -1,0 +1,219 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Ground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Back Ground.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Box.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Signal.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Spider.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Checkpoint.tscn" type="PackedScene" id=7]
+[ext_resource path="res://PickableObject.tscn" type="PackedScene" id=8]
+[ext_resource path="res://BoxSignal.tscn" type="PackedScene" id=9]
+[ext_resource path="res://SpiderSignal.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Wagon.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Wagonquibougepas.tscn" type="PackedScene" id=12]
+[ext_resource path="res://DialogBox.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Main.cs" type="Script" id=14]
+[ext_resource path="res://Friend.tscn" type="PackedScene" id=15]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 202.75
+
+[node name="Main" type="Node"]
+script = ExtResource( 14 )
+
+[node name="Back Ground" parent="." instance=ExtResource( 3 )]
+
+[node name="Box" type="Node2D" parent="."]
+
+[node name="Box3" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 519.003, 504.998 )
+mode = 1
+
+[node name="Box2" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 519.174, 436.458 )
+mode = 1
+
+[node name="Box" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 1027.4, 503.273 )
+scale = Vector2( 1.0022, 1 )
+mode = 0
+
+[node name="Box5" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 3807.65, 363.529 )
+mode = 0
+
+[node name="Box6" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 3807.39, 435.152 )
+mode = 0
+
+[node name="Box7" parent="Box" groups=[
+"Box",
+] instance=ExtResource( 4 )]
+position = Vector2( 3806.66, 505.141 )
+mode = 0
+
+[node name="Wagonquibougepas" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 12 )]
+position = Vector2( 6006.3, 484.086 )
+
+[node name="Wagon" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 6378.81, 1001.9 )
+
+[node name="Wagon2" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 6630.8, 1022.06 )
+
+[node name="Wagon3" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 6822.3, 1022.06 )
+
+[node name="Wagon4" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 7175.08, 971.66 )
+
+[node name="Wagon5" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 7553.06, 931.342 )
+
+[node name="Wagon6" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 7744.57, 1011.98 )
+
+[node name="Wagon7" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 7966.31, 966.62 )
+
+[node name="Wagon10" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 8374.53, 926.302 )
+
+[node name="Wagon11" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 8712.18, 966.62 )
+
+[node name="Wagon12" parent="Box" groups=[
+"Wagons",
+] instance=ExtResource( 11 )]
+position = Vector2( 8863.37, 991.818 )
+
+[node name="PickableObject" parent="." instance=ExtResource( 8 )]
+position = Vector2( 794.7, 107.623 )
+
+[node name="Player" parent="." groups=[
+"Player",
+] instance=ExtResource( 1 )]
+position = Vector2( 627.514, 500.574 )
+
+[node name="Spider" parent="." groups=[
+"Spider",
+] instance=ExtResource( 6 )]
+position = Vector2( -16.4546, 369.934 )
+
+[node name="Area2D2" type="Area2D" parent="Spider"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Spider/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ground" parent="." instance=ExtResource( 2 )]
+
+[node name="Signals" type="Node2D" parent="."]
+
+[node name="Signal1" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 1243, 591.25 )
+rotation = 1.5708
+
+[node name="Signal2" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 1442.26, 590.467 )
+rotation = 1.5708
+
+[node name="Signal6" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 3421.42, 594.926 )
+rotation = 1.5708
+
+[node name="Signal7" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 4091.5, 592.256 )
+rotation = 1.5708
+
+[node name="Signal8" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 4216.5, 592.256 )
+rotation = 1.5708
+
+[node name="Signal5" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 3198.64, 591.358 )
+rotation = 1.5708
+
+[node name="Signal4" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 2980.96, 591.358 )
+rotation = 1.5708
+
+[node name="Signal3" parent="Signals" instance=ExtResource( 5 )]
+position = Vector2( 1639.49, 590.586 )
+rotation = 1.5708
+
+[node name="Checkpoints" type="Node2D" parent="."]
+
+[node name="Checkpoint2" parent="Checkpoints" instance=ExtResource( 7 )]
+position = Vector2( 668.485, 410.881 )
+
+[node name="Checkpoint3" parent="Checkpoints" instance=ExtResource( 7 )]
+position = Vector2( 3635.14, 431.381 )
+
+[node name="BoxSignals" type="Node2D" parent="."]
+
+[node name="BoxSignal" parent="BoxSignals" instance=ExtResource( 9 )]
+position = Vector2( 4262.8, 672.514 )
+
+[node name="BoxSignal2" parent="BoxSignals" instance=ExtResource( 9 )]
+position = Vector2( 4096.89, 671.175 )
+
+[node name="SpiderSignal" type="Node2D" parent="."]
+
+[node name="SpiderSignal" parent="SpiderSignal" instance=ExtResource( 10 )]
+position = Vector2( 5583.34, 472.073 )
+rotation = 1.5708
+
+[node name="DialogBox" parent="." instance=ExtResource( 13 )]
+position = Vector2( 426.014, 132.948 )
+
+[node name="Friend" parent="." instance=ExtResource( 15 )]
+position = Vector2( 807.004, 501.454 )
+[connection signal="IsGrapping" from="PickableObject" to="Player" method="_on_PickableObject_IsGrapping"]
+[connection signal="WichWay" from="Player" to="PickableObject" method="_on_Player_WichWay"]
+[connection signal="body_entered" from="Spider/Area2D2" to="Player" method="_on_Area2D2_body_entered"]
+[connection signal="body_entered" from="Signals/Signal1" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal2" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal6" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal7" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal8" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal5" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal4" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Signals/Signal3" to="Player" method="_on_Signal_body_entered"]
+[connection signal="body_entered" from="Checkpoints/Checkpoint2" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="body_entered" from="Checkpoints/Checkpoint3" to="Player" method="_on_Checkpoint_body_entered"]
+[connection signal="body_entered" from="BoxSignals/BoxSignal" to="Player" method="_on_BoxSignal_body_entered"]
+[connection signal="body_entered" from="BoxSignals/BoxSignal2" to="Player" method="_on_BoxSignal_body_entered"]
+[connection signal="body_entered" from="SpiderSignal/SpiderSignal" to="Player" method="_on_SpiderSignal_body_entered"]
+[connection signal="GameStart" from="DialogBox" to="Player" method="_on_DialogBox_GameStart"]
+[connection signal="GameStart" from="DialogBox" to="Friend" method="_on_DialogBox_GameStart"]

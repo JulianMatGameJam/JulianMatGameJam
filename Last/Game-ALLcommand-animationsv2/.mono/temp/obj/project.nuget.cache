@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "frqNdXT0C3fhA0201g7YyJRvoXr6i/zuzjIK+H8sTQ0csiolGnyIg6Ihlt55CxUdqCvHLZvuvP1EODtIP1NtmA==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\Godot\\Game-ALLcommand-animations\\Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net47\\1.0.0\\microsoft.netframework.referenceassemblies.net47.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

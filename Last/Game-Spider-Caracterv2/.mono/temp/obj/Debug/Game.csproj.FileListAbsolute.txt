@@ -1,0 +1,17 @@
+d:\Documents\Godot\Game\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.pdb

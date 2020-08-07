@@ -1,0 +1,88 @@
+[gd_scene load_steps=24 format=2]
+
+[ext_resource path="res://Asset/liquid container/liquid_container_0008_Frame-2.png" type="Texture" id=1]
+[ext_resource path="res://Asset/liquid container/liquid_container_0005_Frame-5.png" type="Texture" id=2]
+[ext_resource path="res://Asset/liquid container/liquid_container_0001_Frame-9.png" type="Texture" id=3]
+[ext_resource path="res://Asset/liquid container/liquid_container_0004_Frame-6.png" type="Texture" id=4]
+[ext_resource path="res://Asset/liquid container/liquid_container_0007_Frame-3.png" type="Texture" id=5]
+[ext_resource path="res://Asset/liquid container/liquid_container_0000_Frame-10.png" type="Texture" id=6]
+[ext_resource path="res://Asset/liquid container/liquid_container_0006_Frame-4.png" type="Texture" id=7]
+[ext_resource path="res://Asset/liquid container/liquid_container_0010_Frame-0.png" type="Texture" id=8]
+[ext_resource path="res://Asset/liquid container/liquid_container_0002_Frame-8.png" type="Texture" id=9]
+[ext_resource path="res://Asset/liquid container/liquid_container_0009_Frame-1.png" type="Texture" id=10]
+[ext_resource path="res://Asset/liquid container/liquid_container_0003_Frame-7.png" type="Texture" id=11]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 7 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 0, 0, 57, 95 )
+
+[sub_resource type="SpriteFrames" id=12]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="LiquidContainer" type="RigidBody2D"]
+mode = 1
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 3, 3 )
+frames = SubResource( 12 )
+frame = 6
+playing = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -65.4075, 136.571, -64.7775, 117.673, -57.848, 106.963, -42.0989, 83.0248, -41.469, -96.5139, -58.4779, -104.073, -58.4779, -109.113, -48.3985, -111.633, -52.1783, -122.342, -40.209, -134.312, -27.6098, -139.351, 24.0469, -141.241, 34.1263, -134.942, 49.2454, -123.602, 44.8356, -111.633, 54.285, -109.743, 52.3951, -101.554, 36.0162, -95.884, 35.3862, 80.505, 49.8753, 91.2143, 47.9854, 103.814, 57.4348, 105.073, 54.915, 116.413, 63.1045, 117.043, 62.4745, 135.942, 44.8356, 139.091, -43.3589, 140.981, -47.1386, 137.831 )

@@ -1,0 +1,24 @@
+[gd_scene format=2]
+
+[node name="EndGame" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -169.0
+margin_top = -82.5
+margin_right = 169.0
+margin_bottom = 82.5
+text = "Bien joué vous avez sauvé tout le monde 
+
+Merci d'avoir joué à notre jeu.
+
+Vive les GameJam
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

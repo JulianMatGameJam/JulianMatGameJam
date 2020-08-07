@@ -1,0 +1,87 @@
+d:\Documents\Godot\Game\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game-Spider-Caracter\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracterv2\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracterv2\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracterv2\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracterv2\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-Spider-Caracterv2\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game-ALLcommand-animations\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game-ALLcommand-animations\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game-ALLcommand-animations\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game-ALLcommand-animations\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game-ALLcommand-animations\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game-ALLcommand-animations\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-ALLcommand-animationsv2.1\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-ALLcommand-animationsv2.1\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-ALLcommand-animationsv2.1\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-ALLcommand-animationsv2.1\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game-ALLcommand-animationsv2.1\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game v3 (with all interactions)\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game v3 (with all interactions)\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game v3 (with all interactions)\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game v3 (with all interactions)\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game v3 (with all interactions)\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game v3 (with all interactions)\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v4 (map+wagon ^^)\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v4 (map+wagon ^^)\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v4 (map+wagon ^^)\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v4 (map+wagon ^^)\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v4 (map+wagon ^^)\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game v5 (Intro + Menu)\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game v5 (Intro + Menu)\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game v5 (Intro + Menu)\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game v5 (Intro + Menu)\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game v5 (Intro + Menu)\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game v5 (Intro + Menu)\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v5.1 (Intro + Menu)\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v5.1 (Intro + Menu)\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v5.1 (Intro + Menu)\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v5.1 (Intro + Menu)\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v5.1 (Intro + Menu)\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v6 (deco)\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v6 (deco)\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v6 (deco)\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v6 (deco)\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v6 (deco)\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game v7\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game v7\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game v7\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game v7\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game v7\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game v7\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v8\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v8\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v8\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v8\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v8\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v9\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v9\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v9\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v9\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v9\.mono\temp\obj\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v10\.mono\temp\bin\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v10\.mono\temp\bin\Debug\Game.pdb
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v10\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v10\.mono\temp\obj\Debug\Game.dll
+C:\Users\julia\OneDrive\Bureau\Test GameJam\Game v10\.mono\temp\obj\Debug\Game.pdb
+d:\Documents\Godot\Game v11\.mono\temp\bin\Debug\Game.dll
+d:\Documents\Godot\Game v11\.mono\temp\bin\Debug\Game.pdb
+d:\Documents\Godot\Game v11\.mono\temp\obj\Debug\Game.csprojAssemblyReference.cache
+d:\Documents\Godot\Game v11\.mono\temp\obj\Debug\Game.csproj.CoreCompileInputs.cache
+d:\Documents\Godot\Game v11\.mono\temp\obj\Debug\Game.dll
+d:\Documents\Godot\Game v11\.mono\temp\obj\Debug\Game.pdb
